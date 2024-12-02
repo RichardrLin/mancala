@@ -29,24 +29,24 @@ public class NotifyUserInteractor implements NotifyUserInputBoundary, Subscriber
 
         if (rank != -1) {
             if (rank == 3) {
-                message = String.format("Congratulations on finishing your Jacala game %s! \n" +
+                message = String.format("Congratulations on finishing your Jancala game %s! \n" +
                         "\nYou are currently ranked %drd on the leaderboard!", notifyUserInputData.getUsername(), rank);
             }
             else if (rank == 2) {
-                message = String.format("Congratulations on finishing your Jacala game %s! \n" +
+                message = String.format("Congratulations on finishing your Jancala game %s! \n" +
                         "\nYou are currently ranked %dnd on the leaderboard!", notifyUserInputData.getUsername(), rank);
             }
             else if (rank == 1) {
-                message = String.format("Congratulations on finishing your Jacala game %s or shall I say Jacala Grandmaster! \n" +
+                message = String.format("Congratulations on finishing your Jancala game %s or shall I say Jancala Grandmaster! \n" +
                         "\nYou are currently ranked %dst on the leaderboard!", notifyUserInputData.getUsername(), rank);
             }
             else {
-                message = String.format("Congratulations on finishing your Jacala game %s!\n" +
+                message = String.format("Congratulations on finishing your Jancala game %s!\n" +
                         "\nYou are currently ranked %dth on the leaderboard!", notifyUserInputData.getUsername(), rank);
             }
         }
         else {
-            message = String.format("Congratulations on finishing your Jacala game %s!\n" +
+            message = String.format("Congratulations on finishing your Jancala game %s!\n" +
                     "\nConsider posting your results to the leaderboard to know your ranking next time!",
                     notifyUserInputData.getUsername());
         }

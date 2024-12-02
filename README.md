@@ -49,10 +49,8 @@ Additionally, this project was designed with the following objectives:
 
 ## Installation Instructions
 
-To utilize the leaderboard feature, follow these steps:
-
-//TO DO: Ivan's leaderboard API
-
+- You will need to install [java](https://www.jetbrains.com/idea/download/?section=mac) to run this program. 
+- The program is compatible with OpenJDK 23
 
 
 To utilize SMS notifications, follow these steps:

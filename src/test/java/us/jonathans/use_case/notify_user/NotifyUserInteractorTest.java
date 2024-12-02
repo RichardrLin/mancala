@@ -42,7 +42,7 @@ class NotifyUserInteractorTest {
         interactor.execute(inputData);
 
         // Verifies that the correct message is sent to the user given their rank
-        String expectedMessage = "Congratulations on finishing your Jacala game Jonathon!\n" +
+        String expectedMessage = "Congratulations on finishing your Jancala game Jonathon!\n" +
                 "\nConsider posting your results to the leaderboard to know your ranking next time!";
         verify(mockOutputBoundary).notifyUser(phoneNumber, expectedMessage);
     }
@@ -65,7 +65,7 @@ class NotifyUserInteractorTest {
         interactor.execute(inputData);
 
         // Verifies that the correct message is sent to the user given their rank
-        String expectedMessage = "Congratulations on finishing your Jacala game Ivan or shall I say Jacala Grandmaster! \n" +
+        String expectedMessage = "Congratulations on finishing your Jancala game Ivan or shall I say Jancala Grandmaster! \n" +
                 "\nYou are currently ranked 1st on the leaderboard!";
         verify(mockOutputBoundary).notifyUser(phoneNumber, expectedMessage);
     }
@@ -88,7 +88,7 @@ class NotifyUserInteractorTest {
         interactor.execute(inputData);
 
         // Verifies that the correct message is sent to the user given their rank
-        String expectedMessage = "Congratulations on finishing your Jacala game Richard! \n" +
+        String expectedMessage = "Congratulations on finishing your Jancala game Richard! \n" +
                 "\nYou are currently ranked 2nd on the leaderboard!";
         verify(mockOutputBoundary).notifyUser(phoneNumber, expectedMessage);
     }
@@ -111,7 +111,7 @@ class NotifyUserInteractorTest {
         interactor.execute(inputData);
 
         // Verifies that the correct message is sent to the user given their rank
-        String expectedMessage = "Congratulations on finishing your Jacala game Mina! \n" +
+        String expectedMessage = "Congratulations on finishing your Jancala game Mina! \n" +
                 "\nYou are currently ranked 3rd on the leaderboard!";
         verify(mockOutputBoundary).notifyUser(phoneNumber, expectedMessage);
     }
@@ -134,7 +134,7 @@ class NotifyUserInteractorTest {
         interactor.execute(inputData);
 
         // Verifies that the correct message is sent to the user given their rank
-        String expectedMessage = "Congratulations on finishing your Jacala game Fiza!\n" +
+        String expectedMessage = "Congratulations on finishing your Jancala game Fiza!\n" +
                 "\nYou are currently ranked 5th on the leaderboard!";
         verify(mockOutputBoundary).notifyUser(phoneNumber, expectedMessage);
     }
